@@ -1,18 +1,23 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Analista de Sistemas",
+    corporation: "Universidad Da Vinci - Buenos Aires ",
+    date: "08/2024 – 08/2027",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Desarrollador Full Stack",
+    corporation: "SOYHENRY",
+    date: "02/2023 – 07/2023",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "Curso Avanzado de React, Javascript, Tailwind",
+    corporation: "UDEMY",
+    date: "04/2024 – 05/2024",
+  },
+  {
+    title: "Curso Avanzado de Diseño Web (Javascript, HTML5, CSS)",
+    corporation: "CODERHOUSE",
+    date: "09/2022 – 01/2023",
   },
 ];
 
@@ -38,7 +43,12 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
-  // here add more icon keys
+  wordpress: "wordpress",
+  java: "java",
+  firebase: "firebase",
+  sql: "sql",
+  mysql: "mysql",
+  postgresql: "postgresql",
 };
 
 export const skills = [
@@ -67,8 +77,8 @@ export const skills = [
     icon: IconKeys.react,
   },
   {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
+    title: "Java",
+    icon: IconKeys.java,
   },
   {
     title: "Git",
@@ -79,15 +89,15 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
+  // {
+  //   title: "Material UI",
+  //   icon: IconKeys.materialUi,
+  // },
 
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
+  // {
+  //   title: "Redux Js",
+  //   icon: IconKeys.redux,
+  // },
   {
     title: "Styled Components",
     icon: IconKeys.styled,
@@ -100,35 +110,35 @@ export const skills = [
     title: "TypeScript",
     icon: IconKeys.typeScript,
   },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
+  // {
+  //   title: "Radix UI",
+  //   icon: IconKeys.radix,
+  // },
 
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
+  // {
+  //   title: "React Query",
+  //   icon: IconKeys.reactQuery,
+  // },
   {
     title: "Vite",
     icon: IconKeys.vite,
   },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
+  // {
+  //   title: "Zustand",
+  //   icon: IconKeys.zustand,
+  // },
 
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
-  },
+  // {
+  //   title: "Shadcn UI",
+  //   icon: IconKeys.shadcn,
+  // },
+  // {
+  //   title: "Mongo Db",
+  //   icon: IconKeys.mongodb,
+  // },
 ];
 
-export const projects = [
+export const jobs = [
   {
     img: "../../../img/vivero-takumi.webp",
     title: "Vivero Takumi",
@@ -136,22 +146,19 @@ export const projects = [
     description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.wordpress,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.mysql,
       },
       {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
+        icon: IconKeys.css,
       },
     ],
   },
+];
+
+export const projects = [
   {
     img: "../../../img/informental.webp",
     title: "Informental",
