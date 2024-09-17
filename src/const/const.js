@@ -19,6 +19,11 @@ export const studies = [
     corporation: "CODERHOUSE",
     date: "09/2022 – 01/2023",
   },
+  {
+    title: "Certificado Inglés Intermedio Avanzado EFSET (B2)",
+    corporation: "EFSET",
+    date: "09/2022 – 01/2023",
+  },
 ];
 
 export const IconKeys = {
@@ -156,9 +161,23 @@ export const jobs = [
       },
     ],
   },
-];
-
-export const projects = [
+  {
+    img: "../../../img/medicina-diagnostica.webp",
+    title: "Medicina Diagnóstica",
+    link: "https://medicinadiagnostica.com.ar/",
+    description: `Portafolio de una aplicación de medicina diagnostica.`,
+    technologies: [
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.nextjs,
+      },
+      {
+        icon: IconKeys.tailwind,
+      },
+    ],
+  },
   {
     img: "../../../img/informental.webp",
     title: "Informental",
@@ -182,48 +201,35 @@ export const projects = [
       },
     ],
   },
+];
+
+export const projects = [
   {
-    img: "../../../img/medicina-diagnostica.webp",
-    title: "Medicina Diagnóstica",
-    link: "https://medicinadiagnostica.com.ar/",
-    description: `Portafolio de una aplicación de medicina diagnostica.`,
+    img: "../../../img/guitarLA.webp",
+    title: "Ecommerce GuitarLA",
+    link: "https://guitar-la-alpha.vercel.app//",
+    description: `Simulando una página de venta de guitarras , con carrito de compras, estados, y base de datos local.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.react,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,
       },
       {
         icon: IconKeys.tailwind,
       },
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.nodejs,
+      },
     ],
   },
-  // },
-  // {
-  //   img: "../../../img/store-games.webp",
-  //   title: "Store games",
-  //   link: "https://store-games-site.netlify.app/",
-  //   description: `Simulando una página de juegos , consumiendo la API de rawg api
-  //     donde los usuarios pueden buscar videojuegos, ver sus detalles como
-  //     creadores , calificaciones,tiendas donde comprar.....`,
-  //   technologies: [
-  //     {
-  //       icon: IconKeys.react,
-  //     },
-  //     {
-  //       icon: IconKeys.css,
-  //     },
-  //     {
-  //       icon: IconKeys.javaScript,
-  //     },
-  //     {
-  //       icon: IconKeys.tailwind,
-  //     },
-  //     {
-  //       icon: IconKeys.reactQuery,
-  //     },
-  //   ],
   // },
   // {
   //   img: "../../../img/movie.webp",
@@ -265,7 +271,6 @@ export const projects = [
   //     },
   //   ],
   // },
-
   // {
   //   img: "../../../img/fit-nation.webp",
   //   title: "gym",
@@ -311,7 +316,6 @@ export const projects = [
   //     },
   //   ],
   // },
-
   // {
   //   img: "../../../img/landing.webp",
   //   title: "Landing Realidad Virtual",
