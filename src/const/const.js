@@ -54,6 +54,10 @@ export const IconKeys = {
   sql: "sql",
   mysql: "mysql",
   postgresql: "postgresql",
+  photoshop: "photoshop",
+  firebase: "firebase",
+  bootstrap: "bootstrap",
+  python: "python",
 };
 
 export const skills = [
@@ -89,20 +93,10 @@ export const skills = [
     title: "Git",
     icon: IconKeys.git,
   },
-
   {
     title: "Github",
     icon: IconKeys.github,
   },
-  // {
-  //   title: "Material UI",
-  //   icon: IconKeys.materialUi,
-  // },
-
-  // {
-  //   title: "Redux Js",
-  //   icon: IconKeys.redux,
-  // },
   {
     title: "Styled Components",
     icon: IconKeys.styled,
@@ -115,32 +109,30 @@ export const skills = [
     title: "TypeScript",
     icon: IconKeys.typeScript,
   },
-  // {
-  //   title: "Radix UI",
-  //   icon: IconKeys.radix,
-  // },
-
-  // {
-  //   title: "React Query",
-  //   icon: IconKeys.reactQuery,
-  // },
   {
-    title: "Vite",
-    icon: IconKeys.vite,
+    title: "Wordpress",
+    icon: IconKeys.wordpress,
   },
-  // {
-  //   title: "Zustand",
-  //   icon: IconKeys.zustand,
-  // },
-
-  // {
-  //   title: "Shadcn UI",
-  //   icon: IconKeys.shadcn,
-  // },
-  // {
-  //   title: "Mongo Db",
-  //   icon: IconKeys.mongodb,
-  // },
+  {
+    title: "Bootstrap",
+    icon: IconKeys.bootstrap,
+  },
+  {
+    title: "Photoshop",
+    icon: IconKeys.photoshop,
+  },
+  {
+    title: "Firebase",
+    icon: IconKeys.firebase,
+  },
+  {
+    title: "MySql",
+    icon: IconKeys.mysql,
+  },
+  {
+    title: "Python",
+    icon: IconKeys.python,
+  },
 ];
 
 export const jobs = [
@@ -168,13 +160,13 @@ export const jobs = [
     description: `Portafolio de una aplicación de medicina diagnostica.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.wordpress,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.mysql,
       },
       {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.css,
       },
     ],
   },
@@ -197,7 +189,7 @@ export const jobs = [
         icon: IconKeys.mongodb,
       },
       {
-        icon: IconKeys.stripe,
+        icon: IconKeys.react,
       },
     ],
   },
